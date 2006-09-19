@@ -15,7 +15,7 @@ our %EXPORT_TAGS = (
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 #---------------------------------------------------------------------
 
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 use Time::HiRes qw( usleep gettimeofday );
 use Digest::MD5 qw(md5_hex);
@@ -268,7 +268,7 @@ I will be happy to have your feedback about the module.
 
 =head1 COPYRIGHT
 
-This module is Copyright (c) 2003 Brad Fitzpatrick.
+This module is Copyright (c) 2006 Sergei A. Fedorov.
 All rights reserved.
 
 You may distribute under the terms of either the GNU General Public
